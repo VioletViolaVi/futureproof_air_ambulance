@@ -13,11 +13,6 @@ body {
   min-height: 100vh; /* for footer */
 }
 
-/*************************************** <main></main> */
-#contentWrap {
-  padding-bottom: 2.5rem; /* for footer */
-}
-
 /**************************************************** home */
 #main-title {
   text-align: center;
@@ -34,8 +29,31 @@ body {
   }
 }
 
-/**************************************************** aircrafts pg */
+@media (min-width: 992px) {
+  #contentWrap1 {
+    padding-bottom: 7.5rem;
+  }
+
+  .custom-img {
+    width: 50%;
+    margin: 2rem 30%;
+  }
+}
+
+/**************************************************** about */
 #contentWrap2 {
+  padding-bottom: 7.5rem; /* for footer */
+}
+
+@media (min-width: 600px) {
+  .custom-img {
+    width: 60%;
+    margin: 2rem 20%;
+  }
+}
+
+/**************************************************** air crafts */
+#contentWrap3 {
   padding-bottom: 5.5rem;
 }
 
