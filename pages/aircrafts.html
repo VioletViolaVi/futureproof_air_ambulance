@@ -4,34 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <script
       src="https://kit.fontawesome.com/bfcbb8f6a3.js"
       crossorigin="anonymous"
     ></script>
     <title>Air Ambulance | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="../pages/index.html">Home</a>
-        <a href="../pages/about.html">About</a>
-        <a href="../pages/aircrafts.html">Aircrafts</a>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/aircrafts.html">Aircrafts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
-    <main>
-      <header>
-        <h2>Aircrafts</h2>
+    <main id="contentWrap2">
+      <header class="my-5">
+        <h2 class="text-center">Aircrafts</h2>
       </header>
 
       <article>
-        <h3>Aerospatiale Dauphin SA356N</h3>
+        <h3 class="text-center">Aerospatiale Dauphin SA356N</h3>
         <img
           src="../images/aerospatiale.jpg"
           alt="Aerospatiale Dauphin SA356N"
+          class="img-fluid my-5"
         />
-        <p>
+        <p class="my-5 px-2">
           The service's first helicopter was an Aérospatiale SA 365N Dauphin.
           Built in 1982, it was registered G-HEMS, and delivered in December
           1988, in time for the launch of the service in 1989. It initially wore
@@ -42,9 +77,13 @@
       </article>
 
       <article>
-        <h3>MD 902 Explorer</h3>
-        <img src="../images/MD902Explorer.jpg" alt="MD 902 Explorer" />
-        <p>
+        <h3 class="text-center">MD 902 Explorer</h3>
+        <img
+          src="../images/MD902Explorer.jpg"
+          alt="MD 902 Explorer"
+          class="img-fluid my-5"
+        />
+        <p class="my-5 px-2">
           Two MD Helicopters MD 902 Explorers are currently in service,
           registrations G-EHMS and G-LNDN. Both wear the same red-based livery,
           with green and yellow flashes, and are identical in model, equipment
@@ -58,9 +97,13 @@
       </article>
 
       <article>
-        <h3>G-EHMS Rowan</h3>
-        <img src="../images/G-EHMS.jpg" alt="G-EHMS Rowan" />
-        <p>
+        <h3 class="text-center">G-EHMS Rowan</h3>
+        <img
+          src="../images/G-EHMS.jpg"
+          alt="G-EHMS Rowan"
+          class="img-fluid my-5"
+        />
+        <p class="my-5 px-2">
           G-EHMS was built in 2000 and entered service in October of the same
           year, replacing the earlier SA 365N Dauphin 2. From 6 March 2012, the
           helicopter became the UK's first air ambulance to carry emergency
@@ -74,10 +117,16 @@
       </article>
     </main>
 
-    <footer>
+    <footer id="footer" class="bg-light">
       <i class="fa-brands fa-instagram"></i>
       <i class="fa-brands fa-facebook-square"></i>
       <i class="fa-brands fa-twitter"></i>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

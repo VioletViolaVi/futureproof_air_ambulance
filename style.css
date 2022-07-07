@@ -9,4 +9,44 @@
 body {
   text-align: center;
   cursor: default;
+  position: relative; /* for footer */
+  min-height: 100vh; /* for footer */
+}
+
+/*************************************** <main></main> */
+#contentWrap {
+  padding-bottom: 2.5rem; /* for footer */
+}
+
+/**************************************************** home */
+#main-title {
+  text-align: center;
+}
+
+#main-title h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 600px) {
+  #customImgStyle {
+    margin: auto 20%;
+    width: 60%;
+  }
+}
+
+/**************************************************** aircrafts pg */
+#contentWrap2 {
+  padding-bottom: 5.5rem;
+}
+
+/*************************************** footer */
+#footer {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 3rem 0 4rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
 }
